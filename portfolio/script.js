@@ -1,149 +1,249 @@
-document.addEventListener('DOMContentLoaded', function() {
-    setupNavigation();
-    setupScrollAnimations();
-    setupContactForm();
-    setupPageLoad();
+// VexedPainter Portfolio - Auto-Updating JavaScript
+// Particles, Typing Animation, GitHub API Integration
+
+const USERNAME = 'VexedPainter';
+
+// Initialize Everything
+document.addEventListener('DOMContentLoaded', () => {
+    initParticles();
+    initTypingAnimation();
+    initSmoothScroll();
+    fetchGitHubStats();
+    initCharts();
+    updateLastUpdateTime();
 });
 
-function setupNavigation() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sections = document.querySelectorAll('section[id]');
-
-    function updateActiveLink() {
-        let current = '';
-        
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            
-            if (pageYOffset >= sectionTop - 200) {
-                current = section.getAttribute('id');
-            }
-        });
-
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href').slice(1) === current) {
-                link.classList.add('active');
-            }
+// Particles.js Configuration
+function initParticles() {
+    if (typeof particlesJS !== 'undefined') {
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: '#00d9ff' },
+                shape: { type: 'circle' },
+                opacity: { value: 0.5, random: false },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: '#00d9ff', opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 2, direction: 'none', random: false, straight: false, out_mode: 'out' }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } },
+                modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } }
+            },
+            retina_detect: true
         });
     }
+}
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
+// Typing Animation
+function initTypingAnimation() {
+    const texts = [
+        'Full-Stack Developer',
+        'AI/ML Engineer',
+        'Data Scientist',
+        'Cybersecurity Explorer',
+        'Problem Solver',
+        'Code Creator'
+    ];
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typedTextElement = document.querySelector('.typed-text');
+    
+    function type() {
+        const current = texts[textIndex];
+        
+        if (isDeleting) {
+            typedTextElement.textContent = current.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            typedTextElement.textContent = current.substring(0, charIndex + 1);
+            charIndex++;
+        }
+        
+        if (!isDeleting && charIndex === current.length) {
+            setTimeout(() => isDeleting = true, 2000);
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+        }
+        
+        const speed = isDeleting ? 50 : 100;
+        setTimeout(type, speed);
+    }
+    
+    type();
+}
+
+// Smooth Scroll
+function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
             e.preventDefault();
-            const targetId = this.getAttribute('href').slice(1);
-            const targetSection = document.getElementById(targetId);
-            
-            if (targetSection) {
-                targetSection.scrollIntoView({ behavior: 'smooth' });
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
     });
-
-    window.addEventListener('scroll', updateActiveLink);
-    updateActiveLink();
 }
 
-function setupScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
+// Fetch GitHub Stats
+async function fetchGitHubStats() {
+    try {
+        // Fetch user data
+        const userResponse = await fetch(`https://api.github.com/users/${USERNAME}`);
+        const userData = await userResponse.json();
+        
+        // Fetch repos
+        const reposResponse = await fetch(`https://api.github.com/users/${USERNAME}/repos?per_page=100`);
+        const reposData = await reposResponse.json();
+        
+        // Calculate stats
+        const totalStars = reposData.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+        const totalForks = reposData.reduce((sum, repo) => sum + repo.forks_count, 0);
+        
+        // Update UI
+        updateStat('githubStars', totalStars);
+        updateStat('followers', userData.followers);
+        updateStat('profileViews', Math.floor(Math.random() * 1000) + 500); // Simulated
+        updateStat('totalCommits', Math.floor(Math.random() * 500) + 100); // Simulated
+        
+        // Update streak (simulated)
+        document.getElementById('currentStreak').textContent = '7';
+        document.getElementById('totalContributions').textContent = '156';
+        
+        // Load projects
+        loadProjects(reposData);
+        
+    } catch (error) {
+        console.error('Error fetching GitHub stats:', error);
+        // Show placeholder values on error
+        updateStat('githubStars', '0');
+        updateStat('followers', '0');
+        updateStat('profileViews', '—');
+        updateStat('totalCommits', '—');
+    }
+}
 
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
+function updateStat(id, value) {
+    const element = document.getElementById(id);
+    if (element) {
+        // Animate number counting
+        animateValue(element, 0, value, 2000);
+    }
+}
+
+function animateValue(element, start, end, duration) {
+    const range = end - start;
+    const startTime = performance.now();
+    
+    function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const value = Math.floor(start + range * progress);
+        element.textContent = value;
+        
+        if (progress < 1) {
+            requestAnimationFrame(update);
+        }
+    }
+    
+    requestAnimationFrame(update);
+}
+
+// Load Projects
+function loadProjects(repos) {
+    const projectsGrid = document.getElementById('projectsGrid');
+    if (!projectsGrid) return;
+    
+    // Get top 6 repos by stars
+    const topRepos = repos
+        .filter(repo => !repo.fork)
+        .sort((a, b) => b.stargazers_count - a.stargazers_count)
+        .slice(0, 6);
+    
+    projectsGrid.innerHTML = topRepos.map(repo => `
+        <div class="glass project-card">
+            <h3>${repo.name}</h3>
+            <p>${repo.description || 'No description available'}</p>
+            <div class="project-stats">
+                <span><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
+                <span><i class="fas fa-code-branch"></i> ${repo.forks_count}</span>
+            </div>
+            <a href="${repo.html_url}" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+    `).join('');
+}
+
+// Initialize Charts
+function initCharts() {
+    if (typeof Chart === 'undefined') return;
+    
+    // Contribution Chart
+    const contribCtx = document.getElementById('contributionChart');
+    if (contribCtx) {
+        new Chart(contribCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                datasets: [{
+                    label: 'Contributions',
+                    data: [12, 19, 15, 25, 22, 30],
+                    borderColor: '#00d9ff',
+                    backgroundColor: 'rgba(0, 217, 255, 0.1)',
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } } }
             }
         });
-    }, observerOptions);
+    }
+    
+    // Language Chart
+    const langCtx = document.getElementById('languageChart');
+    if (langCtx) {
+        new Chart(langCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['JavaScript', 'Python', 'HTML/CSS', 'Java', 'Other'],
+                datasets: [{
+                    data: [35, 25, 20, 15, 5],
+                    backgroundColor: ['#f7df1e', '#3776ab', '#e34c26', '#b07219', '#00d9ff']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom', labels: { color: '#fff' } } }
+            }
+        });
+    }
+}
 
-    document.querySelectorAll('.about-content p, .section-title, .contact-intro').forEach(el => {
-        observer.observe(el);
+// Update Last Update Time
+function updateLastUpdateTime() {
+    const lastUpdateElement = document.getElementById('lastUpdate');
+    if (lastUpdateElement) {
+        const now = new Date();
+        lastUpdateElement.textContent = now.toLocaleString();
+    }
+}
+
+// Mobile Menu
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('navMenu');
+
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
     });
 }
 
-function setupContactForm() {
-    const contactForm = document.getElementById('contactForm');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const message = document.getElementById('message').value.trim();
-            
-            if (name && email && message) {
-                const mailtoLink = `mailto:your-email@example.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-                window.location.href = mailtoLink;
-                
-                contactForm.reset();
-                showFormFeedback('Thank you! Your message is ready to send.', 'success');
-            }
-        });
-    }
-}
-
-function showFormFeedback(message, type) {
-    const existingFeedback = document.querySelector('.form-feedback');
-    if (existingFeedback) {
-        existingFeedback.remove();
-    }
-    
-    const feedback = document.createElement('div');
-    feedback.className = `form-feedback form-feedback-${type}`;
-    feedback.textContent = message;
-    feedback.style.cssText = `
-        padding: 12px 16px;
-        border-radius: 8px;
-        margin-bottom: 1.5rem;
-        text-align: center;
-        font-weight: 500;
-        background: ${type === 'success' ? 'rgba(100, 200, 255, 0.15)' : 'rgba(255, 84, 89, 0.15)'};
-        color: ${type === 'success' ? '#64c8ff' : '#ff5459'};
-        border: 1px solid ${type === 'success' ? 'rgba(100, 200, 255, 0.3)' : 'rgba(255, 84, 89, 0.3)'};
-        animation: slideDown 0.3s ease-out;
-    `;
-    
-    const contactForm = document.getElementById('contactForm');
-    contactForm.parentNode.insertBefore(feedback, contactForm);
-    
-    setTimeout(() => {
-        feedback.style.animation = 'slideUp 0.3s ease-out forwards';
-        setTimeout(() => feedback.remove(), 300);
-    }, 3000);
-}
-
-function setupPageLoad() {
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes slideUp {
-            from {
-                opacity: 1;
-                transform: translateY(0);
-            }
-            to {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-        }
-    `;
-    document.head.appendChild(style);
-}
-
-window.addEventListener('load', function() {
-    document.body.style.opacity = '1';
-});
+// Refresh stats every 5 minutes
+setInterval(fetchGitHubStats, 300000);
