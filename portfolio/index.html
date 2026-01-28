@@ -1,224 +1,501 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VexedPainter - AI Engineer, Full-Stack Developer, Cybersecurity Explorer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VexedPainter - AI Engineer, Full-Stack Developer & Cybersecurity Explorer. Building scalable web applications and intelligent systems."
+    />
+    <meta
+      name="keywords"
+      content="VexedPainter, Full-Stack Developer, AI Engineer, Data Scientist, Portfolio, Web Developer"
+    />
+    <meta name="author" content="VexedPainter" />
+    <meta property="og:title" content="VexedPainter | Professional Portfolio" />
+    <meta
+      property="og:description"
+      content="AI Engineer, Full-Stack Developer & Cybersecurity Explorer"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://vexedpainter.github.io/VexedPainter/portfolio/"
+    />
+    <meta name="theme-color" content="#00d9ff" />
     <title>VexedPainter | Professional Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="particles-js"></div>
 
+    <!-- Floating GitHub Button -->
+    <a
+      href="https://github.com/VexedPainter"
+      target="_blank"
+      class="floating-github"
+      aria-label="View on GitHub"
+    >
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo"><span class="code-bracket">&lt;</span>VexedPainter<span class="code-bracket">/&gt;</span></a>
-            <div class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
-                <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
-                <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
-                <a href="#stats" class="nav-link"><i class="fas fa-chart-line"></i> Stats</a>
-                <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
-                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
-            </div>
-            <button class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
+      <div class="nav-container">
+        <a href="#home" class="logo"
+          ><span class="code-bracket">&lt;</span>VexedPainter<span
+            class="code-bracket"
+            >/&gt;</span
+          ></a
+        >
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+          <a href="#about" class="nav-link"
+            ><i class="fas fa-user"></i> About</a
+          >
+          <a href="#skills" class="nav-link"
+            ><i class="fas fa-code"></i> Skills</a
+          >
+          <a href="#stats" class="nav-link"
+            ><i class="fas fa-chart-line"></i> Stats</a
+          >
+          <a href="#projects" class="nav-link"
+            ><i class="fas fa-project-diagram"></i> Projects</a
+          >
+          <a href="#contact" class="nav-link"
+            ><i class="fas fa-envelope"></i> Contact</a
+          >
         </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
     </nav>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="glitch" data-text="VEXEDPAINTER">VEXEDPAINTER</h1>
-            <p class="typed-text">Full-Stack Developer</p>
-            <p class="subtitle">AI Engineer | Full-Stack Developer | Cybersecurity Explorer</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary"><i class="fas fa-briefcase"></i> View My Work</a>
-                <a href="https://github.com/VexedPainter" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub Profile</a>
-            </div>
+      <div class="hero-content reveal">
+        <div class="hero-badge">👋 Welcome to my portfolio</div>
+        <h1 class="glitch" data-text="VEXEDPAINTER">VEXEDPAINTER</h1>
+        <p class="typed-text">Full-Stack Developer</p>
+        <p class="subtitle">
+          AI Engineer • Full-Stack Developer • Cybersecurity Explorer
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"
+            ><i class="fas fa-rocket"></i> View My Work</a
+          >
+          <a
+            href="https://github.com/VexedPainter"
+            target="_blank"
+            class="btn btn-secondary"
+            ><i class="fab fa-github"></i> GitHub Profile</a
+          >
         </div>
+        <div class="scroll-indicator">
+          <div class="mouse"></div>
+          <span>Scroll to explore</span>
+        </div>
+      </div>
     </section>
 
     <section id="about" class="section about-section">
-        <div class="container">
-            <h2 class="section-title"><span class="code-bracket">&lt;</span>About Me<span class="code-bracket">/&gt;</span></h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>👨‍💻 AI & Data Science Engineer</h3>
-                    <p>🎓 Bachelor of Engineering in <strong>Artificial Intelligence & Data Science</strong></p>
-                    <p>🏫 CMR Institute of Technology, Bangalore</p>
-                    <br>
-                    <p>💻 <strong>Full-Stack Developer</strong> | Building scalable web applications</p>
-                    <p>📊 <strong>Data Analyst</strong> | Transforming raw data into actionable insights</p>
-                    <p>🔐 <strong>Security Explorer</strong> | Passionate about ethical hacking</p>
-                    <br>
-                    <p>🚀 Currently exploring cutting-edge <strong>AI/ML technologies</strong></p>
-                    <p>🎯 Always learning, always building, always evolving</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="code-bracket">&lt;</span>About Me<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </h2>
+        <div class="about-content">
+          <div class="about-card reveal">
+            <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+            <p><strong>Bachelor of Engineering</strong></p>
+            <p>Artificial Intelligence & Data Science</p>
+            <p class="text-muted">CMR Institute of Technology, Bangalore</p>
+          </div>
+          <div class="about-text reveal">
+            <h3>👨‍💻 Who am I?</h3>
+            <p>
+              I'm a passionate developer who loves building things that live on
+              the internet. From crafting pixel-perfect frontends to
+              architecting robust backends, I enjoy the entire creative process.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-laptop-code"></i>
+                <span
+                  ><strong>Full-Stack Developer</strong> — Building scalable web
+                  applications</span
+                >
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-chart-pie"></i>
+                <span
+                  ><strong>Data Analyst</strong> — Transforming data into
+                  insights</span
+                >
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-robot"></i>
+                <span
+                  ><strong>AI/ML Engineer</strong> — Exploring cutting-edge
+                  technologies</span
+                >
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-shield-alt"></i>
+                <span
+                  ><strong>Security Explorer</strong> — Passionate about ethical
+                  hacking</span
+                >
+              </div>
             </div>
+            <blockquote class="about-quote">
+              <i class="fas fa-quote-left"></i>
+              Always learning, always building, always evolving.
+            </blockquote>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="skills" class="section skills-section">
-        <div class="container">
-            <h2 class="section-title"><span class="code-bracket">&lt;</span>Technical Skills<span class="code-bracket">/&gt;</span></h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>💻 Programming</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
-                        <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
-                        <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
-                        <span class="skill-badge"><i class="fab fa-c"></i> C/C++</span>
-                        <span class="skill-badge"><i class="fab fa-html5"></i> HTML5</span>
-                        <span class="skill-badge"><i class="fab fa-css3"></i> CSS3</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>🧠 AI/ML</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge"><i class="fas fa-brain"></i> TensorFlow</span>
-                        <span class="skill-badge"><i class="fas fa-fire"></i> PyTorch</span>
-                        <span class="skill-badge"><i class="fas fa-chart-bar"></i> NumPy</span>
-                        <span class="skill-badge"><i class="fas fa-table"></i> Pandas</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>📦 Databases</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge"><i class="fas fa-database"></i> MongoDB</span>
-                        <span class="skill-badge"><i class="fas fa-database"></i> MySQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>🔒 Other</h3>
-                    <div class="skill-items">
-                        <span class="skill-badge"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
-                        <span class="skill-badge"><i class="fas fa-robot"></i> ML/AI</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="code-bracket">&lt;</span>Technical Skills<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <div class="skill-header">
+              <i class="fas fa-code"></i>
+              <h3>Programming Languages</h3>
             </div>
+            <div class="skill-items">
+              <span class="skill-badge"
+                ><i class="fab fa-python"></i> Python</span
+              >
+              <span class="skill-badge"
+                ><i class="fab fa-js"></i> JavaScript</span
+              >
+              <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-badge"><i class="fas fa-code"></i> C/C++</span>
+              <span class="skill-badge"
+                ><i class="fab fa-html5"></i> HTML5</span
+              >
+              <span class="skill-badge"><i class="fab fa-css3"></i> CSS3</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-header">
+              <i class="fas fa-brain"></i>
+              <h3>AI & Machine Learning</h3>
+            </div>
+            <div class="skill-items">
+              <span class="skill-badge"
+                ><i class="fas fa-brain"></i> TensorFlow</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-fire"></i> PyTorch</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-chart-bar"></i> NumPy</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-table"></i> Pandas</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-chart-line"></i> Scikit-learn</span
+              >
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-header">
+              <i class="fas fa-server"></i>
+              <h3>Frameworks & Libraries</h3>
+            </div>
+            <div class="skill-items">
+              <span class="skill-badge"
+                ><i class="fab fa-react"></i> React</span
+              >
+              <span class="skill-badge"
+                ><i class="fab fa-node"></i> Node.js</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-server"></i> Express</span
+              >
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-header">
+              <i class="fas fa-database"></i>
+              <h3>Databases & Tools</h3>
+            </div>
+            <div class="skill-items">
+              <span class="skill-badge"
+                ><i class="fas fa-database"></i> MongoDB</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-database"></i> MySQL</span
+              >
+              <span class="skill-badge"
+                ><i class="fab fa-git-alt"></i> Git</span
+              >
+              <span class="skill-badge"
+                ><i class="fab fa-github"></i> GitHub</span
+              >
+              <span class="skill-badge"
+                ><i class="fas fa-code"></i> VS Code</span
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="stats" class="section stats-section">
-        <div class="container">
-            <h2 class="section-title"><span class="code-bracket">&lt;</span>Live GitHub Stats<span class="code-bracket">/&gt;</span></h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
-                    <div class="stat-content">
-                        <h3>Public Repos</h3>
-                        <p class="stat-value" id="github-repos">...</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-star"></i></div>
-                    <div class="stat-content">
-                        <h3>Total Stars</h3>
-                        <p class="stat-value" id="github-stars">...</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-users"></i></div>
-                    <div class="stat-content">
-                        <h3>Followers</h3>
-                        <p class="stat-value" id="github-followers">...</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-fire"></i></div>
-                    <div class="stat-content">
-                        <h3>Total Commits</h3>
-                        <p class="stat-value" id="github-commits">15+</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="code-bracket">&lt;</span>Live GitHub Stats<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </h2>
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-folder-open"></i></div>
+            <div class="stat-content">
+              <p class="stat-value" id="github-repos">
+                <span class="loading-dots">...</span>
+              </p>
+              <h3>Public Repos</h3>
             </div>
-            <div class="github-stats-images">
-                <img src="https://github-readme-stats.vercel.app/api?username=VexedPainter&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" alt="GitHub Stats">
-                <img src="https://github-readme-streak-stats.herokuapp.com?user=VexedPainter&theme=radical&hide_border=true&background=0a0a23&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VexedPainter&layout=compact&theme=radical&hide_border=true&bg_color=0a0a23&title_color=00d9ff&text_color=ffffff" alt="Top Languages">
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-star"></i></div>
+            <div class="stat-content">
+              <p class="stat-value" id="github-stars">
+                <span class="loading-dots">...</span>
+              </p>
+              <h3>Total Stars</h3>
             </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div class="stat-content">
+              <p class="stat-value" id="github-followers">
+                <span class="loading-dots">...</span>
+              </p>
+              <h3>Followers</h3>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-code-commit"></i></div>
+            <div class="stat-content">
+              <p class="stat-value" id="github-commits">15+</p>
+              <h3>Total Commits</h3>
+            </div>
+          </div>
         </div>
+        <div class="github-stats-images reveal">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=VexedPainter&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff"
+            alt="GitHub Stats"
+            loading="lazy"
+          />
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com?user=VexedPainter&theme=radical&hide_border=true&background=0a0a23&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff"
+            alt="GitHub Streak"
+            loading="lazy"
+          />
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=VexedPainter&layout=compact&theme=radical&hide_border=true&bg_color=0a0a23&title_color=00d9ff&text_color=ffffff"
+            alt="Top Languages"
+            loading="lazy"
+          />
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="section projects-section">
-        <div class="container">
-            <h2 class="section-title"><span class="code-bracket">&lt;</span>Featured Projects<span class="code-bracket">/&gt;</span></h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-folder-open"></i>
-                        <div class="project-links">
-                            <a href="https://github.com/VexedPainter" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3>AI Predictor</h3>
-                    <p>Machine learning application for predictive analytics</p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>TensorFlow</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-folder-open"></i>
-                        <div class="project-links">
-                            <a href="https://github.com/VexedPainter" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3>RockBee Alert System</h3>
-                    <p>IoT-based colony monitoring system</p>
-                    <div class="project-tech">
-                        <span>IoT</span>
-                        <span>Python</span>
-                        <span>Arduino</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-folder-open"></i>
-                        <div class="project-links">
-                            <a href="https://github.com/VexedPainter/VexedPainter" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3>Portfolio Website</h3>
-                    <p>Auto-updating portfolio with GitHub API integration</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="code-bracket">&lt;</span>Featured Projects<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </h2>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-globe"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://vexedpainter.github.io/VexedPainter/portfolio/"
+                  target="_blank"
+                  title="Live Demo"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a
+                  href="https://github.com/VexedPainter/VexedPainter"
+                  target="_blank"
+                  title="View Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
             </div>
+            <h3>Portfolio Website</h3>
+            <p>
+              Auto-updating portfolio with particles.js animations, GitHub API
+              integration, and dynamic stats visualization. Check it out!
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>particles.js</span>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-brain"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/VexedPainter"
+                  target="_blank"
+                  title="View Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>AI Predictor</h3>
+            <p>
+              Machine learning application for predictive analytics using
+              TensorFlow. Features data preprocessing, model training, and
+              visualization.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-microchip"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/VexedPainter"
+                  target="_blank"
+                  title="View Code"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>RockBee Alert System</h3>
+            <p>
+              IoT-based colony monitoring system with real-time alerts. Monitors
+              environmental conditions and sends notifications via SMS/email.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Arduino</span>
+              <span>IoT</span>
+              <span>Sensors</span>
+            </div>
+          </div>
         </div>
+        <div class="projects-cta reveal">
+          <a
+            href="https://github.com/VexedPainter?tab=repositories"
+            target="_blank"
+            class="btn btn-outline"
+          >
+            <i class="fab fa-github"></i> View All Projects
+          </a>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title"><span class="code-bracket">&lt;</span>Get In Touch<span class="code-bracket">/&gt;</span></h2>
-            <div class="contact-content">
-                <p class="contact-text">Let's Connect!</p>
-                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
-                <div class="social-links">
-                    <a href="https://github.com/VexedPainter" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/vexedpainter" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:your.email@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="code-bracket">&lt;</span>Get In Touch<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </h2>
+        <div class="contact-content reveal">
+          <div class="contact-text">
+            <h3>Let's Connect! 🤝</h3>
+            <p>
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision. Feel free to reach out!
+            </p>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://github.com/VexedPainter"
+              target="_blank"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://linkedin.com/in/vexedpainter"
+              target="_blank"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="mailto:contact@vexedpainter.dev"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 VexedPainter | Built with 💙 | <span id="last-update">Last updated: Loading...</span></p>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="code-bracket">&lt;</span>VexedPainter<span
+            class="code-bracket"
+            >/&gt;</span
+          >
+        </div>
+        <p>
+          &copy; 2026 VexedPainter | Built with <span class="heart">❤</span> and
+          lots of ☕
+        </p>
+        <p class="footer-update" id="last-update">Last updated: Loading...</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
