@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initTypingAnimation();
     initSmoothScroll();
     fetchGitHubStats();
-    initCharts();
     updateLastUpdateTime();
 });
 
@@ -38,14 +37,7 @@ function initParticles() {
 
 // Typing Animation
 function initTypingAnimation() {
-    const texts = [
-        'Full-Stack Developer',
-        'AI/ML Engineer',
-        'Data Scientist',
-        'Cybersecurity Explorer',
-        'Problem Solver',
-        'Code Creator'
-    ];
+    const texts = ['Full-Stack Developer', 'AI/ML Engineer', 'Data Scientist', 'Cybersecurity Explorer', 'Problem Solver', 'Code Creator'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -62,24 +54,27 @@ function initTypingAnimation() {
             charIndex++;
         }
         
+        let typeSpeed = isDeleting ? 50 : 100;
+        
         if (!isDeleting && charIndex === current.length) {
-            setTimeout(() => isDeleting = true, 2000);
+            typeSpeed = 2000;
+            isDeleting = true;
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             textIndex = (textIndex + 1) % texts.length;
+            typeSpeed = 500;
         }
         
-        const speed = isDeleting ? 50 : 100;
-        setTimeout(type, speed);
+        setTimeout(type, typeSpeed);
     }
     
-    type();
+    if (typedTextElement) type();
 }
 
 // Smooth Scroll
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
@@ -92,158 +87,159 @@ function initSmoothScroll() {
 // Fetch GitHub Stats
 async function fetchGitHubStats() {
     try {
-        // Fetch user data
-        const userResponse = await fetch(`https://api.github.com/users/${USERNAME}`);
-        const userData = await userResponse.json();
+        const response = await fetch(`https://api.github.com/users/${USERNAME}`);
+        if (!response.ok) throw new Error('GitHub API error');
         
-        // Fetch repos
-        const reposResponse = await fetch(`https://api.github.com/users/${USERNAME}/repos?per_page=100`);
-        const reposData = await reposResponse.json();
+        const data = await response.json();
         
-        // Calculate stats
-        const totalStars = reposData.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-        const totalForks = reposData.reduce((sum, repo) => sum + repo.forks_count, 0);
+        // Update basic stats
+        document.getElementById('github-followers').textContent = data.followers || 0;
+        document.getElementById('github-repos').textContent = data.public_repos || 0;
         
-        // Update UI
-        updateStat('githubStars', totalStars);
-        updateStat('followers', userData.followers);
-        updateStat('profileViews', Math.floor(Math.random() * 1000) + 500); // Simulated
-        updateStat('totalCommits', Math.floor(Math.random() * 500) + 100); // Simulated
+        // Fetch repos for additional stats
+        await fetchRepoStats();
         
-        // Update streak (simulated)
-        document.getElementById('currentStreak').textContent = '7';
-        document.getElementById('totalContributions').textContent = '156';
+        // Render contribution graph
+        renderContributionGraph();
         
-        // Load projects
-        loadProjects(reposData);
+        // Render language stats
+        renderLanguageStats();
         
     } catch (error) {
         console.error('Error fetching GitHub stats:', error);
-        // Show placeholder values on error
-        updateStat('githubStars', '0');
-        updateStat('followers', '0');
-        updateStat('profileViews', '—');
-        updateStat('totalCommits', '—');
+        // Show fallback data
+        document.getElementById('github-followers').textContent = '0';
+        document.getElementById('github-repos').textContent = '0';
     }
 }
 
-function updateStat(id, value) {
-    const element = document.getElementById(id);
-    if (element) {
-        // Animate number counting
-        animateValue(element, 0, value, 2000);
-    }
-}
-
-function animateValue(element, start, end, duration) {
-    const range = end - start;
-    const startTime = performance.now();
-    
-    function update(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        const value = Math.floor(start + range * progress);
-        element.textContent = value;
+async function fetchRepoStats() {
+    try {
+        const response = await fetch(`https://api.github.com/users/${USERNAME}/repos?per_page=100`);
+        if (!response.ok) throw new Error('Repos API error');
         
-        if (progress < 1) {
-            requestAnimationFrame(update);
-        }
-    }
-    
-    requestAnimationFrame(update);
-}
-
-// Load Projects
-function loadProjects(repos) {
-    const projectsGrid = document.getElementById('projectsGrid');
-    if (!projectsGrid) return;
-    
-    // Get top 6 repos by stars
-    const topRepos = repos
-        .filter(repo => !repo.fork)
-        .sort((a, b) => b.stargazers_count - a.stargazers_count)
-        .slice(0, 6);
-    
-    projectsGrid.innerHTML = topRepos.map(repo => `
-        <div class="glass project-card">
-            <h3>${repo.name}</h3>
-            <p>${repo.description || 'No description available'}</p>
-            <div class="project-stats">
-                <span><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
-                <span><i class="fas fa-code-branch"></i> ${repo.forks_count}</span>
-            </div>
-            <a href="${repo.html_url}" target="_blank" class="btn btn-primary">View Project</a>
-        </div>
-    `).join('');
-}
-
-// Initialize Charts
-function initCharts() {
-    if (typeof Chart === 'undefined') return;
-    
-    // Contribution Chart
-    const contribCtx = document.getElementById('contributionChart');
-    if (contribCtx) {
-        new Chart(contribCtx, {
-            type: 'line',
-            data: {
-                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-                datasets: [{
-                    label: 'Contributions',
-                    data: [12, 19, 15, 25, 22, 30],
-                    borderColor: '#00d9ff',
-                    backgroundColor: 'rgba(0, 217, 255, 0.1)',
-                    tension: 0.4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: { y: { beginAtZero: true, grid: { color: 'rgba(255, 255, 255, 0.1)' } } }
+        const repos = await response.json();
+        
+        const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+        document.getElementById('github-stars').textContent = totalStars;
+        
+        // Calculate language distribution
+        const languages = {};
+        repos.forEach(repo => {
+            if (repo.language) {
+                languages[repo.language] = (languages[repo.language] || 0) + 1;
             }
         });
+        
+        // Store for later use
+        window.languageData = languages;
+        
+    } catch (error) {
+        console.error('Error fetching repo stats:', error);
+        document.getElementById('github-stars').textContent = '0';
     }
+}
+
+function renderContributionGraph() {
+    const canvas = document.getElementById('contributionChart');
+    if (!canvas) return;
     
-    // Language Chart
-    const langCtx = document.getElementById('languageChart');
-    if (langCtx) {
-        new Chart(langCtx, {
-            type: 'doughnut',
-            data: {
-                labels: ['JavaScript', 'Python', 'HTML/CSS', 'Java', 'Other'],
-                datasets: [{
-                    data: [35, 25, 20, 15, 5],
-                    backgroundColor: ['#f7df1e', '#3776ab', '#e34c26', '#b07219', '#00d9ff']
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: { legend: { position: 'bottom', labels: { color: '#fff' } } }
-            }
-        });
-    }
-}
-
-// Update Last Update Time
-function updateLastUpdateTime() {
-    const lastUpdateElement = document.getElementById('lastUpdate');
-    if (lastUpdateElement) {
-        const now = new Date();
-        lastUpdateElement.textContent = now.toLocaleString();
-    }
-}
-
-// Mobile Menu
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('navMenu');
-
-if (hamburger) {
-    hamburger.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
+    const ctx = canvas.getContext('2d');
+    const width = canvas.width = canvas.offsetWidth;
+    const height = canvas.height = 300;
+    
+    // Generate sample contribution data (last 30 days)
+    const data = Array.from({ length: 30 }, () => Math.floor(Math.random() * 20));
+    const max = Math.max(...data, 1);
+    
+    // Draw bars
+    const barWidth = width / data.length - 2;
+    data.forEach((value, i) => {
+        const barHeight = (value / max) * (height - 40);
+        const x = i * (barWidth + 2);
+        const y = height - barHeight - 20;
+        
+        const gradient = ctx.createLinearGradient(0, y, 0, height - 20);
+        gradient.addColorStop(0, '#00d9ff');
+        gradient.addColorStop(1, '#7b2ff7');
+        
+        ctx.fillStyle = gradient;
+        ctx.fillRect(x, y, barWidth, barHeight);
     });
 }
 
-// Refresh stats every 5 minutes
-setInterval(fetchGitHubStats, 300000);
+function renderLanguageStats() {
+    const canvas = document.getElementById('languageChart');
+    if (!canvas || !window.languageData) return;
+    
+    const ctx = canvas.getContext('2d');
+    const width = canvas.width = canvas.offsetWidth;
+    const height = canvas.height = 300;
+    
+    const languages = Object.entries(window.languageData)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
+    
+    if (languages.length === 0) return;
+    
+    const total = languages.reduce((sum, [, count]) => sum + count, 0);
+    const colors = ['#00d9ff', '#7b2ff7', '#f72585', '#4cc9f0', '#4361ee'];
+    
+    let currentAngle = -Math.PI / 2;
+    const centerX = width / 2;
+    const centerY = height / 2;
+    const radius = Math.min(width, height) / 2 - 20;
+    
+    languages.forEach(([lang, count], i) => {
+        const sliceAngle = (count / total) * 2 * Math.PI;
+        
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + sliceAngle);
+        ctx.lineTo(centerX, centerY);
+        ctx.fillStyle = colors[i];
+        ctx.fill();
+        
+        // Add label
+        const midAngle = currentAngle + sliceAngle / 2;
+        const textX = centerX + Math.cos(midAngle) * (radius / 1.5);
+        const textY = centerY + Math.sin(midAngle) * (radius / 1.5);
+        
+        ctx.fillStyle = '#fff';
+        ctx.font = '12px "Fira Code", monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(lang, textX, textY);
+        
+        currentAngle += sliceAngle;
+    });
+}
+
+// Navbar scroll effect
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(10, 10, 35, 0.98)';
+        navbar.style.backdropFilter = 'blur(20px)';
+    } else {
+        navbar.style.background = 'rgba(10, 10, 35, 0.9)';
+    }
+});
+
+// Update last update time
+function updateLastUpdateTime() {
+    const lastUpdateElement = document.getElementById('last-update');
+    if (lastUpdateElement) {
+        const now = new Date();
+        lastUpdateElement.textContent = `Last updated: ${now.toLocaleString()}`;
+    }
+}
+
+// Theme toggle (if needed)
+function toggleTheme() {
+    document.body.classList.toggle('light-mode');
+    localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+}
+
+// Load saved theme
+if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light-mode');
+}
