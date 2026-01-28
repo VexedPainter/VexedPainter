@@ -6,10 +6,17 @@
 <!-- Dynamic Typing Animation -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D9FFFF&center=true&vCenter=true&width=800&height=100&lines=Full-Stack+Web+Developer+%F0%9F%92%BB;AI+%26+Data+Science+Engineer+%F0%9F%A4%96;Cybersecurity+Enthusiast+%F0%9F%94%90;Building+Scalable+Applications+%F0%9F%9A%80;Turning+Data+into+Insights+%F0%9F%93%8A;Problem+Solver+%7C+Code+Creator+%E2%9C%A8" alt="Typing SVG" /></a>
 
+<div align="center">
+  <h2>🌐 Portfolio Website</h2>
+  <a href="https://vexedpainter.github.io/VexedPainter/portfolio/">
+    <img src="https://img.shields.io/badge/🚀_Visit_My_Portfolio-Click_Here-00d9ff?style=for-the-badge&labelColor=0a0a23&logoColor=white" alt="Visit Portfolio" />
+  </a>
+</div>
+
+
 <!-- Profile Views & Followers -->
 <p>
- <img src="https://komarev.com/ghpvc/?username=VexedPainter&label=Profile%20Views&color=brightgreen&style=for-the-badge" alt="Profile Views"/>
- <img src="https://img.shields.io/github/followers/VexedPainter?label=Followers&style=for-the-badge&color=blue" alt="Followers"/>
+<img src="https://visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FVexedPainter&label=Profile%20Views&labelColor=%23697689&countColor=%2337d67a&style=flat&labelStyle=upper" alt="Profile Views"/> <img src="https://img.shields.io/github/followers/VexedPainter?label=Followers&style=for-the-badge&color=blue" alt="Followers"/>
  <img src="https://img.shields.io/github/stars/VexedPainter?label=Stars&style=for-the-badge&color=yellow" alt="Stars"/>
 </p>
 
