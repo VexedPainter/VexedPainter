@@ -112,7 +112,7 @@
 
 ### 🎯 Current Work
 
-🎨 **[Portfolio Website](https://vexedpainter.github.io)** - Modern portfolio with interactive UI  
+🎨 **[Live Portfolio](https://vexedpainter.github.io/VexedPainter/)** - Auto-updating portfolio with particles.js, GitHub API, Chart.js visualizations  
 🤖 **Discord AI Bot** - Feature-rich bot with AI capabilities  
 🌐 **Full-Stack Projects** - Building scalable React applications  
 📊 **Data Analytics** - Transforming data into insights
