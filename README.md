@@ -129,7 +129,7 @@ I'm a passionate developer who loves building things that live on the internet. 
 
 [![GitHub](https://img.shields.io/badge/GitHub-VexedPainter-181717?style=for-the-badge&logo=github)](https://github.com/VexedPainter)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-00d9ff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vexedpainter.github.io/VexedPainter/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/vexedpainter)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sai-suriyha-jk)
 
 </div>
 
