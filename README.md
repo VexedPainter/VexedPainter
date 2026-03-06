@@ -34,10 +34,10 @@
 
 I'm a passionate developer who loves building things that live on the internet. My expertise spans across:
 
-- 💻 **Full-Stack Development** — Building scalable, performant web applications
-- 📊 **Data Analytics** — Transforming raw data into actionable insights
-- 🤖 **AI/ML Engineering** — Developing intelligent systems and models
-- 🔐 **Cybersecurity** — Exploring ethical hacking and security practices
+- 💻 **Full-Stack Development** — Building & designing scalable, performant web applications.
+- 📊 **Data Analytics** — Transforming raw data into actionable insights.
+- 🤖 **AI/DS Engineering** — Developing intelligent systems, Data Structures and models.
+- 🔐 **Cybersecurity** — Exploring ethical hacking and security practices in real life.
 
 > 🎯 _"Always learning, always building, always evolving"_
 
