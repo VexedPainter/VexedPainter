@@ -6,6 +6,9 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Sai%20Suriyha%20JK&fontSize=75&fontAlign=50&fontAlignY=32&animation=twinkling&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Cybersecurity%20Explorer&descSize=20&descAlign=50&descAlignY=56&fontColor=ffffff" />
 
+<!-- 🌌 Animated Tech Banner -->
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 <br>
 
 <!-- ✋ Wave + Typing Animation -->
@@ -36,39 +39,86 @@
 <!-- Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp;About Me
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;Who Am I?
 
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<div>
 
-```yaml
-name: Sai Suriyha JK
-located_in: Bangalore, Karnataka, India 🇮🇳
-education:
-  degree: B.E. in AI & Data Science
-  institution: CMR Institute of Technology
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-current_focus:
-  - 🔭 Building AI-Powered Enterprise Solutions
-  - 🌱 Exploring Advanced ML & Cloud Architecture
-  - 👯 Open to collaborate on AI/ML & Web Projects
-  - 💬 Ask me about Python, AI, Web Dev, Cybersecurity
+<br>
 
-fields_of_interest:
-  - Artificial Intelligence & Machine Learning
-  - Full-Stack Web Development
-  - Data Analytics & Visualization
-  - Cybersecurity & Ethical Hacking
-  - IoT & Embedded Systems
+### 🧑‍💻 `> Sai Suriyha JK`
 
-motto: "Always learning, always building, always evolving"
-```
+I'm a **passionate AI Engineer & Full-Stack Developer** from **Bangalore, India** 🇮🇳 who loves crafting intelligent systems that solve real-world problems. Currently pursuing my **B.E. in AI & Data Science** at **CMR Institute of Technology**.
+
+I don't just write code — I **architect solutions**. From building **AI-powered enterprise platforms** to exploring the depths of **cybersecurity**, I thrive at the intersection of innovation and impact.
+
+- 🔭 **Currently Building:** AI-Powered Enterprise Security Solutions
+- 🌱 **Exploring:** Advanced ML, Cloud Architecture & LLM Systems
+- 👯 **Open to:** Collaborating on AI/ML & Full-Stack Projects
+- 🎯 **Goal:** Build technology that makes a difference
+- ⚡ **Fun Fact:** I debug with coffee ☕ and deploy with confidence 🚀
+
+> *"I don't just code features — I engineer experiences."*
+
+</div>
 
 <br clear="right"/>
 
 <!-- Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Tech Arsenal
+## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;What I Bring to the Table
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
+
+**Full-Stack Dev**
+
+Building & designing scalable, performant web applications from frontend to backend
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
+
+**AI/ML Engineer**
+
+Developing intelligent systems, predictive models & LLM-powered solutions
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
+
+**Data Analytics**
+
+Transforming raw data into actionable insights with powerful visualizations
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52f1adb1c6a.gif" width="80">
+
+**Cybersecurity**
+
+Exploring ethical hacking, zero-trust architectures & security practices
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<!-- Animated Rainbow Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;Tech Arsenal
 
 <div align="center">
 
@@ -93,12 +143,15 @@ motto: "Always learning, always building, always evolving"
   </a>
 </p>
 
+<!-- Animated Tech Line -->
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 </div>
 
 <!-- Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="28"> &nbsp;GitHub Analytics
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
 
 <div align="center">
 
@@ -194,6 +247,15 @@ motto: "Always learning, always building, always evolving"
   <img src="https://img.shields.io/badge/Instagram-itsyourssjk-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
 </a>
 
+<br><br>
+
+<!-- Animated Handshake -->
+<img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468b5596.gif" width="60">
+
+<br>
+
+**💬 Got an exciting project idea? Let's build something extraordinary together!**
+
 </div>
 
 <!-- Animated Rainbow Divider -->
@@ -210,6 +272,14 @@ motto: "Always learning, always building, always evolving"
 ---
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+
+<br><br>
+
+**⭐ If you like my work, consider giving my repos a star!**
+
+<br>
 
 <!-- ✨ Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
