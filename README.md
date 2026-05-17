@@ -103,7 +103,7 @@ Transforming raw data into actionable insights with powerful visualizations
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-002f12c962b2.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece607.gif" width="80">
 
 **Cybersecurity**
 
@@ -224,22 +224,6 @@ Exploring ethical hacking, zero-trust architectures & security practices
 <br>
 
 <img src="https://img.shields.io/badge/🐉_STATUS-DEVOURING_CONTRIBUTIONS-FF4500?style=for-the-badge&labelColor=0a0a23" />
-
-</div>
-
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🏙️ Contribution Skyline — 3D Isometric
-
-<div align="center">
-
-<!-- 🔥 Epic 3D Isometric Contribution Calendar — Night Rainbow -->
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Skyline">
-
-<br>
-
-<img src="https://img.shields.io/badge/🏙️_SKYLINE-LEGENDARY_VIEW-FFD700?style=for-the-badge&labelColor=0a0a23" />
 
 </div>
 
