@@ -210,16 +210,36 @@ Exploring ethical hacking, zero-trust architectures & security practices
 <!-- Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🐉 Contribution Skyline — 3D Isometric
+## 🐉 Fire Dragon — Devouring the Grid
+
+<div align="center">
+
+<!-- 🔥 Fire-Themed Dragon Snake — Eating Contributions -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake.svg">
+  <img alt="Fire Dragon eating contributions" src="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+<br>
+
+<img src="https://img.shields.io/badge/🐉_STATUS-DEVOURING_CONTRIBUTIONS-FF4500?style=for-the-badge&labelColor=0a0a23" />
+
+</div>
+
+<!-- Animated Rainbow Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🏙️ Contribution Skyline — 3D Isometric
 
 <div align="center">
 
 <!-- 🔥 Epic 3D Isometric Contribution Calendar — Night Rainbow -->
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Calendar">
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Skyline">
 
 <br>
 
-<img src="https://img.shields.io/badge/🐉_CONTRIBUTION-LEGENDARY_SKYLINE-FF4500?style=for-the-badge&labelColor=0a0a23" />
+<img src="https://img.shields.io/badge/🏙️_SKYLINE-LEGENDARY_VIEW-FFD700?style=for-the-badge&labelColor=0a0a23" />
 
 </div>
 
