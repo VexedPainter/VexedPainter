@@ -103,7 +103,7 @@ Transforming raw data into actionable insights with powerful visualizations
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52f1adb1c6a.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-002f12c962b2.gif" width="80">
 
 **Cybersecurity**
 
@@ -210,15 +210,16 @@ Exploring ethical hacking, zero-trust architectures & security practices
 <!-- Animated Rainbow Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🐍 Contribution Snake
+## 🐉 Contribution Skyline — 3D Isometric
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/VexedPainter/VexedPainter/output/github-contribution-grid-snake.svg">
-</picture>
+<!-- 🔥 Epic 3D Isometric Contribution Calendar — Night Rainbow -->
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Calendar">
+
+<br>
+
+<img src="https://img.shields.io/badge/🐉_CONTRIBUTION-LEGENDARY_SKYLINE-FF4500?style=for-the-badge&labelColor=0a0a23" />
 
 </div>
 
