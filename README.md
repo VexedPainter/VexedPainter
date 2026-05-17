@@ -166,7 +166,8 @@ Exploring ethical hacking, zero-trust architectures & security practices
       <p><b>Domain:</b> Education</p>
       <p>Led <b>Team AdaptX</b> to victory by architecting an innovative, scalable educational solution.</p>
       <img src="https://img.shields.io/badge/🥇_WINNER-1ST_PLACE-FFD700?style=for-the-badge&labelColor=0a0a23" />&nbsp;&nbsp;
-      <a href="https://github.com/VexedPainter/AdaptX-RockBee-Alert"><img src="https://img.shields.io/badge/🛡️_TEAM-ADAPTX-00d9ff?style=for-the-badge&labelColor=0a0a23" /></a>
+      <a href="https://github.com/VexedPainter/AdaptX-RockBee-Alert"><img src="https://img.shields.io/badge/🛡️_TEAM-ADAPTX-00d9ff?style=for-the-badge&labelColor=0a0a23" /></a>&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/posts/sai-suriyha-jk_hackathon-achievement-teamwork-ugcPost-7457058145882996736-ux1q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWbVWIB8WFyd-XqaQNvrreMKcsDf8hY5TI"><img src="https://img.shields.io/badge/LinkedIn-View_Post-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a23" /></a>
       <br><br>
     </td>
   </tr>
