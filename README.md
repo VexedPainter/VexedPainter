@@ -103,7 +103,7 @@ Transforming raw data into actionable insights with powerful visualizations
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece607.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" width="80">
 
 **Cybersecurity**
 
