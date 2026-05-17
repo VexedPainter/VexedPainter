@@ -7,7 +7,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,6,11,20&height=300&section=header&text=SAI%20SURIYHA%20JK&fontSize=70&fontAlign=50&fontAlignY=45&animation=twinkling&fontColor=00d9ff&desc=⚡%20AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Cybersecurity%20Explorer%20⚡&descSize=18&descAlign=50&descAlignY=72&descColor=ffffff&stroke=00d9ff&strokeWidth=2" />
 
 <!-- 🔥 Fire Animation Banner -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <!-- ⚡ Typing Animation — God Mode -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&repeat=true&width=950&height=70&lines=%E2%9A%A1+GOD+MODE+ACTIVATED+%E2%9A%A1;%F0%9F%94%A5+AI+Engineer+%7C+Full-Stack+Architect+%F0%9F%94%A5;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+Explorer+%7C+Problem+Solver+%F0%9F%9B%A1%EF%B8%8F;%F0%9F%92%80+Code.+Build.+Deploy.+Conquer.+%F0%9F%92%80;%F0%9F%8E%AF+Turning+Ideas+into+Intelligent+Weapons+%F0%9F%8E%AF" alt="Typing SVG" /></a>
@@ -35,16 +35,16 @@
 <br><br>
 
 <!-- 📊 Profile Metrics -->
-<img src="https://komarev.com/ghpvc/?username=VexedPainter&style=for-the-badge&color=FF4500&labelColor=0a0a23&label=🔥+PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=VexedPainter&style=for-the-badge&color=FF4500&labelColor=0a0a23&label=PROFILE+VIEWS" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/VexedPainter?style=for-the-badge&color=FFD700&labelColor=0a0a23&label=⚡+FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/VexedPainter?style=for-the-badge&color=FFD700&labelColor=0a0a23&label=FOLLOWERS" alt="Followers"/>
 &nbsp;
-<img src="https://img.shields.io/github/stars/VexedPainter?style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=⭐+STARS" alt="Stars"/>
+<img src="https://img.shields.io/github/stars/VexedPainter?style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=STARS" alt="Stars"/>
 
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -88,7 +88,7 @@ I don't just write code — I **architect digital weapons**. From building **AI-
 <br clear="right"/>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -156,7 +156,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -188,7 +188,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -221,7 +221,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -234,7 +234,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -251,7 +251,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
@@ -271,7 +271,7 @@ Ethical hacking, zero-trust architectures & penetration testing
 </div>
 
 <!-- 🔥 Fire Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br>
 
