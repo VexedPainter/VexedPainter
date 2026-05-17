@@ -151,6 +151,29 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 </div>
 
+<!-- Animated Rainbow Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🏅 Hackathons & Milestones
+
+<div align="center">
+  
+<table>
+  <tr>
+    <td align="center" width="100%">
+      <br>
+      <h3>🏆 Winner, 1st Place — CodeRush 2026</h3>
+      <p><b>Domain:</b> Education</p>
+      <p>Led <b>Team AdaptX</b> to victory by architecting an innovative, scalable educational solution.</p>
+      <img src="https://img.shields.io/badge/🥇_WINNER-1ST_PLACE-FFD700?style=for-the-badge&labelColor=0a0a23" />&nbsp;&nbsp;
+      <a href="https://github.com/VexedPainter/AdaptX-RockBee-Alert"><img src="https://img.shields.io/badge/🛡️_TEAM-ADAPTX-00d9ff?style=for-the-badge&labelColor=0a0a23" /></a>
+      <br><br>
+    </td>
+  </tr>
+</table>
+
+</div>
+
 <!-- 🔥 Fire Divider — Entering the Arena -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
