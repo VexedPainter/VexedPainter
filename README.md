@@ -1,74 +1,98 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                    ✨ ANIMATED HEADER BANNER ✨                    -->
+<!--              🔥🔥🔥 GOD-MODE HEADER — LEGENDARY 🔥🔥🔥              -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Sai%20Suriyha%20JK&fontSize=75&fontAlign=50&fontAlignY=32&animation=twinkling&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Cybersecurity%20Explorer&descSize=20&descAlign=50&descAlignY=56&fontColor=ffffff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,6,11,20&height=300&section=header&text=SAI%20SURIYHA%20JK&fontSize=70&fontAlign=50&fontAlignY=45&animation=twinkling&fontColor=00d9ff&desc=⚡%20AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Cybersecurity%20Explorer%20⚡&descSize=18&descAlign=50&descAlignY=72&descColor=ffffff&stroke=00d9ff&strokeWidth=2" />
 
-<!-- 🌌 Animated Tech Banner -->
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+<!-- 🔥 Fire Animation Banner -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
+
+<!-- ⚡ Typing Animation — God Mode -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&repeat=true&width=950&height=70&lines=%E2%9A%A1+GOD+MODE+ACTIVATED+%E2%9A%A1;%F0%9F%94%A5+AI+Engineer+%7C+Full-Stack+Architect+%F0%9F%94%A5;%F0%9F%9B%A1%EF%B8%8F+Cybersecurity+Explorer+%7C+Problem+Solver+%F0%9F%9B%A1%EF%B8%8F;%F0%9F%92%80+Code.+Build.+Deploy.+Conquer.+%F0%9F%92%80;%F0%9F%8E%AF+Turning+Ideas+into+Intelligent+Weapons+%F0%9F%8E%AF" alt="Typing SVG" /></a>
 
 <br>
 
-<!-- ✋ Wave + Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00D9FFFF&center=true&vCenter=true&repeat=true&width=900&height=70&lines=%F0%9F%91%8B+Hey+there!+I'm+Sai+Suriyha+JK;%F0%9F%9A%80+Building+Scalable+AI-Powered+Systems;%F0%9F%94%90+Passionate+About+Cybersecurity;%F0%9F%92%A1+Turning+Ideas+into+Intelligent+Solutions;%F0%9F%93%8A+Data-Driven+Problem+Solver;%F0%9F%A4%96+AI+%26+Machine+Learning+Engineer" alt="Typing SVG" /></a>
+<!-- 🎮 Achievement Badges — Gaming Style -->
+<img src="https://img.shields.io/badge/🏆_RANK-LEGENDARY-FFD700?style=for-the-badge&labelColor=0a0a23" height="35"/>
+&nbsp;
+<img src="https://img.shields.io/badge/⚡_STATUS-GOD_MODE-00d9ff?style=for-the-badge&labelColor=0a0a23" height="35"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🔥_LEVEL-MASTER-FF4500?style=for-the-badge&labelColor=0a0a23" height="35"/>
 
 <br><br>
 
-<!-- 🔗 CTA Buttons -->
+<!-- 🔗 CTA Buttons — Neon Style -->
 <a href="https://vexedpainter.github.io/VexedPainter/portfolio/">
   <img src="https://img.shields.io/badge/🚀_EXPLORE_MY_PORTFOLIO-00d9ff?style=for-the-badge&logoColor=white&labelColor=0a0a23" alt="Portfolio" height="42"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://linkedin.com/in/sai-suriyha-jk">
-  <img src="https://img.shields.io/badge/💼_LET'S_CONNECT-0077B5?style=for-the-badge&logoColor=white&labelColor=0a0a23" alt="LinkedIn" height="42"/>
+  <img src="https://img.shields.io/badge/💼_RECRUIT_ME-0077B5?style=for-the-badge&logoColor=white&labelColor=0a0a23" alt="LinkedIn" height="42"/>
 </a>
 
 <br><br>
 
 <!-- 📊 Profile Metrics -->
-<img src="https://komarev.com/ghpvc/?username=VexedPainter&style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=VexedPainter&style=for-the-badge&color=FF4500&labelColor=0a0a23&label=🔥+PROFILE+VIEWS" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/VexedPainter?style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/VexedPainter?style=for-the-badge&color=FFD700&labelColor=0a0a23&label=⚡+FOLLOWERS" alt="Followers"/>
 &nbsp;
-<img src="https://img.shields.io/github/stars/VexedPainter?style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=STARS" alt="Stars"/>
+<img src="https://img.shields.io/github/stars/VexedPainter?style=for-the-badge&color=00d9ff&labelColor=0a0a23&label=⭐+STARS" alt="Stars"/>
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;Who Am I?
-
-<div>
-
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
 <br>
 
-### 🧑‍💻 `> Sai Suriyha JK`
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;`> WHO_AM_I.exe`
 
-I'm a **passionate AI Engineer & Full-Stack Developer** from **Bangalore, India** 🇮🇳 who loves crafting intelligent systems that solve real-world problems. Currently pursuing my **B.E. in AI & Data Science** at **CMR Institute of Technology**.
+<div>
 
-I don't just write code — I **architect solutions**. From building **AI-powered enterprise platforms** to exploring the depths of **cybersecurity**, I thrive at the intersection of innovation and impact.
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f15b36f3d.gif">
 
-- 🔭 **Currently Building:** AI-Powered Enterprise Security Solutions
-- 🌱 **Exploring:** Advanced ML, Cloud Architecture & LLM Systems
-- 👯 **Open to:** Collaborating on AI/ML & Full-Stack Projects
-- 🎯 **Goal:** Build technology that makes a difference
-- ⚡ **Fun Fact:** I debug with coffee ☕ and deploy with confidence 🚀
+<br>
 
-> *"I don't just code features — I engineer experiences."*
+```js
+const saiSuriyha = {
+    name: "Sai Suriyha JK",
+    title: "AI Engineer & Full-Stack Architect",
+    location: "Bangalore, India 🇮🇳",
+    education: "B.E. in AI & Data Science @ CMRIT",
+    
+    skills: ["AI/ML", "Full-Stack", "Cybersecurity", "IoT"],
+    
+    currentlyBuilding: "AI-Powered Enterprise Solutions 🚀",
+    exploring: "LLM Systems, Cloud Architecture, Zero-Trust",
+    
+    motto: "Code. Build. Deploy. Conquer. 💀"
+};
+```
+
+<br>
+
+I don't just write code — I **architect digital weapons**. From building **AI-powered enterprise platforms** with Isolation Forest ML to exploring **cybersecurity's darkest depths**, I operate where innovation meets destruction of problems.
+
+- 🔥 **Currently Building:** AI-Powered Enterprise Security Solutions
+- ⚡ **Mastering:** Advanced ML, Cloud Architecture & LLM Systems
+- 🎯 **Mission:** Build technology that dominates the competition
+- 💀 **Fun Fact:** My code doesn't crash — it makes other code crash
+
+> *"I don't just code features — I engineer weapons of mass creation."*
 
 </div>
 
 <br clear="right"/>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;What I Bring to the Table
+<br>
+
+## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;⚔️ Battle Skills — What I Bring to War
 
 <div align="center">
 
@@ -76,38 +100,54 @@ I don't just write code — I **architect solutions**. From building **AI-powere
 <tr>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="90">
 
-**Full-Stack Dev**
+**⚡ Full-Stack Dev**
 
-Building & designing scalable, performant web applications from frontend to backend
+```
+🏆 MASTERED
+```
+
+Building & designing scalable, performant web apps from frontend to backend
 
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="90">
 
-**AI/ML Engineer**
+**🤖 AI/ML Engineer**
+
+```
+🏆 MASTERED
+```
 
 Developing intelligent systems, predictive models & LLM-powered solutions
 
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="90">
 
-**Data Analytics**
+**📊 Data Analytics**
+
+```
+🏆 MASTERED
+```
 
 Transforming raw data into actionable insights with powerful visualizations
 
 </td>
 <td align="center" width="25%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52f1adb1c6a.gif" width="80">
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52f1adb1c6a.gif" width="90">
 
-**Cybersecurity**
+**🔐 Cybersecurity**
 
-Exploring ethical hacking, zero-trust architectures & security practices
+```
+🏆 MASTERED
+```
+
+Ethical hacking, zero-trust architectures & penetration testing
 
 </td>
 </tr>
@@ -115,59 +155,61 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;Tech Arsenal
+<br>
+
+## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> &nbsp;🛡️ Weapon Arsenal — Tech Stack
 
 <div align="center">
 
-### 🔤 Languages
+### ⚔️ Languages — Primary Weapons
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,javascript,java,c,html,css&theme=dark" alt="Languages"/>
   </a>
 </p>
 
-### ⚡ Frameworks & Libraries
+### 🗡️ Frameworks & Libraries — Special Abilities
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,flask,tensorflow&theme=dark" alt="Frameworks"/>
   </a>
 </p>
 
-### 🧰 Tools & Platforms
+### 🛠️ Tools & Platforms — Battle Gear
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,mongodb,mysql&theme=dark" alt="Tools"/>
   </a>
 </p>
 
-<!-- Animated Tech Line -->
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VexedPainter&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=VexedPainter&theme=tokyonight&hide_border=true&background=0a0a23&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff&sideLabels=00d9ff&dates=c9d1d9" />
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
 <br>
 
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VexedPainter&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&bg_color=0a0a23&title_color=00d9ff&text_color=c9d1d9" />
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;📊 Battle Stats — GitHub Analytics
+
+<div align="center">
+
+<!-- Using alternative stats instance to fix broken images -->
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=VexedPainter&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0a0a23&title_color=00d9ff&icon_color=FF4500&text_color=c9d1d9&ring_color=FFD700" />
+<img width="49%" src="https://streak-stats.demolab.com?user=VexedPainter&theme=tokyonight&hide_border=true&background=0a0a23&ring=FF4500&fire=FFD700&currStreakLabel=00d9ff&sideLabels=00d9ff&dates=c9d1d9&currStreakNum=FFD700&sideNums=FFD700" />
+
+<br>
+
+<img width="45%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VexedPainter&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&bg_color=0a0a23&title_color=00d9ff&text_color=c9d1d9" />
 
 </div>
 
 <br>
 
 <!-- 📈 Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VexedPainter&theme=tokyo-night&hide_border=true&area=true&bg_color=0a0a23&line=00d9ff&point=00d9ff&color=c9d1d9" width="100%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VexedPainter&theme=tokyo-night&hide_border=true&area=true&bg_color=0a0a23&line=FF4500&point=FFD700&color=c9d1d9" width="100%">
 
 <!-- 📊 Profile Summary Cards -->
 <div align="center">
@@ -178,21 +220,25 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## 🏆 GitHub Trophies
+<br>
+
+## 🏆 Achievement Trophies — Unlocked
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=VexedPainter&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)
+![Trophies](https://github-profile-trophy.vercel.app/?username=VexedPainter&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=15)
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## 🐍 Contribution Snake
+<br>
+
+## 🐍 Contribution Snake — Devouring the Grid
 
 <div align="center">
 
@@ -204,33 +250,32 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## 🔥 Featured Projects
+<br>
+
+## 🔥 Featured Projects — Boss Loot
 
 <div align="center">
 
-<a href="https://github.com/VexedPainter/Shadow-Supply-Chain">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=VexedPainter&repo=Shadow-Supply-Chain&theme=tokyonight&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/VexedPainter/CyberPulse">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=VexedPainter&repo=CyberPulse&theme=tokyonight&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" />
-</a>
+<!-- Using alternative stats instance for reliable pin cards -->
 
-<a href="https://github.com/VexedPainter/SplitCart">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=VexedPainter&repo=SplitCart&theme=tokyonight&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/VexedPainter/AdaptX-RockBee-Alert">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=VexedPainter&repo=AdaptX-RockBee-Alert&theme=tokyonight&hide_border=true&bg_color=0a0a23&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" />
-</a>
+| 🚀 Project | 📝 Description | 🛠️ Tech | ⭐ |
+|:---|:---|:---|:---:|
+| **[🛡️ Shadow Supply Chain](https://github.com/VexedPainter/Shadow-Supply-Chain)** | AI-Powered Enterprise Procurement Intelligence & Anomaly Detection Platform — Isolation Forest ML + Dual-LLM Copilot | `Python` `FastAPI` `ML` `Groq` `Cohere` | ⭐ |
+| **[🔐 CyberPulse](https://github.com/VexedPainter/CyberPulse)** | AI-Driven Cyber Risk Detection for Smart City Digital Infrastructure | `Python` `AI/ML` `Cybersecurity` | ⭐ |
+| **[🛒 SplitCart](https://github.com/VexedPainter/SplitCart)** | SplitCart — Split Groceries, Not Friendships! Full-Stack Web Application | `JavaScript` `Node.js` `Web` | ⭐ |
+| **[🐝 AdaptX RockBee Alert](https://github.com/VexedPainter/AdaptX-RockBee-Alert)** | IoT-Based Rock Bees Colony Monitoring System with Real-Time Alerts | `Python` `Arduino` `IoT` | 🆕 |
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## 🌐 Let's Connect
+<br>
+
+## 🌐 Summon Me — Let's Connect
 
 <div align="center">
 
@@ -254,18 +299,20 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 <br>
 
-**💬 Got an exciting project idea? Let's build something extraordinary together!**
+**⚡ Ready to build something legendary? Let's team up and conquer the code battlefield!**
 
 </div>
 
-<!-- Animated Rainbow Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- 🔥 Fire Divider -->
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8571f1ce9b00.gif" width="100%">
 
-## 💡 Random Dev Quote
+<br>
+
+## 💡 Words of a Warrior
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
 
@@ -273,15 +320,28 @@ Exploring ethical hacking, zero-trust architectures & security practices
 
 <div align="center">
 
+<!-- 🌌 Outro Animation -->
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
 <br><br>
 
-**⭐ If you like my work, consider giving my repos a star!**
+```
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║   ⚡  "THE CODE IS MY SWORD, THE TERMINAL MY THRONE" ⚡  ║
+║                                                          ║
+║          — Sai Suriyha JK | @VexedPainter               ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
 
 <br>
 
-<!-- ✨ Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+**⭐ If you survived scrolling through this, you owe me a star! ⭐**
+
+<br>
+
+<!-- ✨ Animated Footer — Venom Style -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,6,11,20&height=150&section=footer&animation=twinkling&fontColor=00d9ff&stroke=FF4500&strokeWidth=1" width="100%"/>
 
 </div>
