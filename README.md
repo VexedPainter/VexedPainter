@@ -17,6 +17,9 @@
 <br><br>
 
 <!-- 🔗 CTA Buttons -->
+<img src="https://img.shields.io/badge/🟢_STATUS-OPEN_TO_WORK-4CAF50?style=for-the-badge&labelColor=0a0a23" alt="Open to Work" height="35"/>
+<br><br>
+
 <a href="https://vexedpainter.github.io/VexedPainter/portfolio/">
   <img src="https://img.shields.io/badge/🚀_EXPLORE_MY_PORTFOLIO-00d9ff?style=for-the-badge&logoColor=white&labelColor=0a0a23" alt="Portfolio" height="42"/>
 </a>
@@ -268,6 +271,9 @@ Exploring ethical hacking, zero-trust architectures & security practices
 </a>
 <a href="https://www.instagram.com/itsyourssjk">
   <img src="https://img.shields.io/badge/Instagram-itsyourssjk-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+<a href="mailto:saisuriyha6@gmail.com">
+  <img src="https://img.shields.io/badge/Email-saisuriyha6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <br><br>
